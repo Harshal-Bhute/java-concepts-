@@ -4,7 +4,7 @@ public class Constructors {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Employee e = new Employee("Yash",1000,21);
+		Employee0 e = new Employee0("Yash",1000,21);
 		System.out.println("name :"+e.getName());
 		System.out.println("salary :"+e.getSalary());
 		System.out.println("id :"+e.getAge());
@@ -15,12 +15,12 @@ public class Constructors {
 
 }
 
-class Employee{
+class Employee0{
 	private String name;
 	private int salary;
 	private int id ;
 	
-	public Employee(String n ,int s,int a) {
+	public Employee0(String n ,int s,int a) {
 		name=n;
 		salary=s;
 		id=a;

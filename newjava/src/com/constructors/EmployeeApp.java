@@ -7,23 +7,24 @@ public class EmployeeApp {
 
 public static void main(String[] args) {
 
-     Employee e = new Employee("RAj", 121,042);
+     Employee3 e = new Employee3("Rj", 121,042);
 
      System.out.println("name : " + e.getName());
      System.out.println("salary : " + e.getSalary());
      System.out.println("id : " + e.getId());
+     
  }
 }
 
-class Employee extends Object{
-  private String name;
+class Employee3 {
+  private String name;   // 
   private int salary;
   private int id;
  
  // SHADOWING PROBLEM  Solved
  
-public Employee(String name, int salary, int id) {
-	// super method();  call to the parent class default constructor which have default value
+public Employee3(String name, int salary, int id) {
+	// super method();  call to the parent class default constructor which have default
      this.name = name;       
      this.salary = salary;   
      this.id = id;           
@@ -41,4 +42,5 @@ public Employee(String name, int salary, int id) {
      return id;
  }
 }
+
 
