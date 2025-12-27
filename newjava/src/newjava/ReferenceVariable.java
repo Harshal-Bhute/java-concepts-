@@ -19,6 +19,6 @@ class Usestudent
 	student dispStudent()
 	{
 		student s=new student();
-		return s;
+		return s ;
 	}
 }
