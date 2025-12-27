@@ -1,5 +1,5 @@
 package newjava;
-
+// code for reference 
 public class ReferenceVariable {
 	public static void main(String[] args) {
 		
