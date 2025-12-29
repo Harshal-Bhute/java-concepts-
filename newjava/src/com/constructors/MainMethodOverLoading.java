@@ -1,9 +1,10 @@
 package com.constructors;
+//how can we call other main methods
 
 public class MainMethodOverLoading {
 
 	public static void main(String[] args) {
-		main(10);
+		main(15);
 		main(1.2f);
 		main();
 		main('a');
@@ -13,7 +14,7 @@ public class MainMethodOverLoading {
 
 
 static public void main(int[] args) {
-	System.out.println("main accepting int argument\"");
+	System.out.println("main accepting int argument");
 }
 
 static public void main(float d) {
