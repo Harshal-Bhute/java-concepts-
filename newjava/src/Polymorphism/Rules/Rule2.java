@@ -1,24 +1,23 @@
 package Polymorphism.Rules;
 
 public class Rule2 {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ChildA c =new ChildA();
-		c.disp();
-
-	}
+	ChildA c =new ChildA();
+	c.disp2();
 
 }
-
-class ParentA{
-	 void disp() {
-		System.out.println("the parent class method");
-	}
 }
-class ChildA extends ParentA{
-	// return type of child must be same as parent methods  
-	int disp() {
-		System.out.println("the child class method");
-	}
-} 
+
+class ParentC{
+public void disp2() {
+	System.out.println("the parent class method");
+}
+}
+class ChildC extends ParentC{
+protected void disp2() {                           // will give error 
+	System.out.println("the child class method");
+}
+}
+
+
