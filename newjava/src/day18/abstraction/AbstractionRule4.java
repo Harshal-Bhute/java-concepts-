@@ -16,14 +16,14 @@ public class AbstractionRule4 {
 // Rule 4: If a child class partially implements an abstract class,
 // then the child class must also be declared abstract.
 
-abstract class Bird {
+abstract class Bird1 {
 
 	abstract void eat();
 	abstract void fly();
 }
 
 // Sparrow does NOT implement fly(), so it must be abstract
-abstract class Sparrow extends Bird {
+abstract class Sparrow extends Bird1 {
 
 	void fly() {
 		System.out.println("Sparrow is flying");

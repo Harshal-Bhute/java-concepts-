@@ -6,7 +6,7 @@ public class AbstractionRule1and2 {
 		// Rule 1: Cannot create object of abstract class
 		// Bird b = new Bird();  // ❌ error
 
-		Bird b = new Sparrow(); // ✔ allowed
+		Bird1 b = new Sparrow(); // ✔ allowed
 		b.eat();
 		b.fly();
 		b.jump();
@@ -27,7 +27,7 @@ abstract class Bird {
 }
 
 // Concrete child class
-class Sparrow extends Bird {
+class Sparrow extends Bird1 {
 
 	void eat() {
 		System.out.println("Bird is eating");

@@ -16,8 +16,8 @@ public class AbstractionRule6 {
 
 
 abstract class Bird {
-                          //
-	abstract void eat(); //  IMPURE ABSTRACT CLASS
+                          // 
+	abstract void eat(); //  IMPURE ABSTRACT CLASS bcz it has both abstract as well as concrete method
      void fly();         //
 }
 
