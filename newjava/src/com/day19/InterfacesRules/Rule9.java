@@ -16,6 +16,7 @@ interface NewCalc{
 }
 
 interface NewCalc2 extends NewCalc{
+	
 	void mul();
 	void div();
 }
