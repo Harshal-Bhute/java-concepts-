@@ -7,6 +7,7 @@ public class MultiThreadingEg1 {
 	// by extending thread class
 
 	public static void main(String[] args) {
+		
 		Typing t1 = new Typing();
 		SpellCheck t2=new SpellCheck();
 		Saving t3=new Saving();
