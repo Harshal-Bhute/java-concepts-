@@ -7,9 +7,10 @@ public class InheritamceRule2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Child p=new Child();
-		System.out.println(p.a);
+		System.out.println(p.a); // can't access a from child class object 
 		System.out.println("------------------");
 		p.disp();
+		System.out.println(p.b);
 
 	}
 

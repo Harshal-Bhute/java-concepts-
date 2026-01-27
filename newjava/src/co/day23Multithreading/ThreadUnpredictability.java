@@ -7,9 +7,9 @@ public class ThreadUnpredictability {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.out.println("Application Started");
-		Typing2 t1 = new Typing2();
-		SpellCheck2 t2=new SpellCheck2();
-		Saving2 t3=new Saving2();
+		Typing3 t1 = new Typing3();
+		SpellCheck3 t2=new SpellCheck3();
+		Saving3 t3=new Saving3();
 		t1.start();
 		t2.start();
 		t3.start();
@@ -22,7 +22,7 @@ public class ThreadUnpredictability {
 	}
 
 }
-class Typing2 extends Thread  {
+class Typing3 extends Thread  {
 	public void run() {
 		System.out.println("Typing Started");
 		for(int i=0;i<10;i++) {
@@ -38,7 +38,7 @@ class Typing2 extends Thread  {
 	 
 }
 
-class SpellCheck2 extends Thread  {
+class SpellCheck3 extends Thread  {
 	public void run() {
 		System.out.println("SpellCheck Started");
 		for(int i=0;i<10;i++) {
@@ -54,7 +54,7 @@ class SpellCheck2 extends Thread  {
 	
 }
 
-class Saving2 extends Thread  {
+class Saving3 extends Thread  {
 	public void run() {
 		 System.out.println("Saving Started");
 		for(int i=0;i<10;i++) {
