@@ -1,10 +1,12 @@
 package day25.Collectionframework;
 
+import java.util.HashSet;
 import java.util.TreeSet;
 
-public class TreeSetDemo {
-	public static void main (String[] args) {
-		TreeSet ts = new TreeSet();
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet ts = new HashSet();
 		ts.add(100);
 		ts.add(50);
 		ts.add(150);
@@ -13,9 +15,8 @@ public class TreeSetDemo {
 		ts.add(125);
 		ts.add(175);
 		System.out.println(ts);
-		// tree set gives output in sorted order irrespective of insertion of elements
 		
-		
+
 	}
 
 }
