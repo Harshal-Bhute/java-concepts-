@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class LiteratorInCollection {
+public class ListIratorInCollection {
 
 	public static void main(String[] args) {
 	    ArrayList arr = new ArrayList();
@@ -18,9 +18,12 @@ public class LiteratorInCollection {
 			arr.add(200);
 			arr.add(300);
 			arr.add(400);
-			 ListIterator itr = arr. listIterator();
-			 while(itr.hasNext()) {
-				 System.out.print(itr.next()+" ");
+			
+			//in list iterator we can go backwords also 
+			
+			 ListIterator itr = arr. listIterator(arr.size());
+			 while(itr.hasPrevious()) {
+				 System.out.print(itr.previous()+" ");
 			 }
 
 	}
