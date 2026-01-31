@@ -1,6 +1,7 @@
-package DisadvantageOfIterator;
+package day27.LegacyClasses.advantageOfIterator;
 
 import java.util.ArrayList;
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PROBLEM >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 /*Chatgpt:-When a collection is structurally modified during iteration,
 Iterator detects it immediately and throws ConcurrentModificationException*/
 

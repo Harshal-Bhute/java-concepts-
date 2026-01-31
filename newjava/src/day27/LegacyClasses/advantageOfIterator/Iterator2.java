@@ -1,11 +1,14 @@
-package DisadvantageOfIterator;
+package day27.LegacyClasses.advantageOfIterator;
 
 import java.util.ArrayList;
+
 import java.util.Iterator;
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SOLUTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //iterator overcome this by giving ConcurrentModificationException
+
 public class Iterator2 {
 		public static void main(String[] args) {
-			ArrayList al = new ArrayList<>();
+			ArrayList al = new ArrayList();
 			al.add(10);
 			al.add(20);
 			al.add("StringType");
@@ -16,8 +19,8 @@ public class Iterator2 {
 			Iterator ar = al.iterator();
 		
 			while(ar.hasNext()) {
-				 System.out.print(ar.next()+" ");
-					al.add(ar.next());
+				 System.out.print(ar.next()+" ");// read and write operations performing at the same time known as 
+			     al.add(ar.next());          // concurrent modification
 			 }
 			
 

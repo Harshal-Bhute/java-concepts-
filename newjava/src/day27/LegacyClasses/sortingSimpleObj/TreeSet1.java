@@ -1,8 +1,7 @@
-package day25.Collectionframework;
-
+package day27.LegacyClasses.sortingSimpleObj;
 import java.util.TreeSet;
+public class TreeSet1 {
 
-public class TreeSetDemo {
 	public static void main (String[] args) {
 		TreeSet ts = new TreeSet();
 		ts.add(100);
@@ -13,9 +12,10 @@ public class TreeSetDemo {
 		ts.add(125);
 		ts.add(175);
 		System.out.println(ts);
-		
+		// tree set gives output in sorted order irrespective of insertion of elements
 		
 		
 	}
 
+}
 }
