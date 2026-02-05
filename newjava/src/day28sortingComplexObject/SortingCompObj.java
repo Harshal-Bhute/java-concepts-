@@ -18,7 +18,7 @@ public class SortingCompObj {
 	    System.out.println(al);
 	    
 	    
-	    // Collections . sort cant sort complex data .So the first solution is to make it generic
+	    // Collections . sort can't sort complex data .So the first solution is to make it generic
 	    
 	    ArrayList<Integer>al1 = new ArrayList<Integer>();
 		al1.add(10);
