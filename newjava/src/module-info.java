@@ -5,5 +5,5 @@
  * 
  */
 module newjava {
-	requires java.desktop;
+	requires java.sql;
 }
