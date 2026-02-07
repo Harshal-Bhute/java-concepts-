@@ -18,7 +18,7 @@ public class SwappingOfNum {
 		
                // without temp using XOR (a^b)  
 		a = a^b;   // new value
-		b = a^b;   // will get original a (a^b)^b = a^(b^b)=a^0=a
+		b = a^b;   // will get original a: (a^b)^b = a^(b^b)=a^0=a
 		a = a^b;   //(a^b)^b=(a^b)^a=(a^a)^b=0^b=b
 		System.out.println("new a :"+a);
 		System.out.println("new b :"+b);

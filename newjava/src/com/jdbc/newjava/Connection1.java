@@ -12,7 +12,7 @@ public class Connection1 {
         System.out.println("Driver loaded");
 
         String url = "jdbc:mysql://localhost:3306/college";
-        String url1="oracle:jdbc:thin@localhost:1521:xe";
+        String url1="oracle:jdbc:thin:@localhost:1521:xe";
         String user = "root";
         String pass = "Harshal@123";
         String sql="select * from student";
