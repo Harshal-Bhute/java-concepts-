@@ -15,7 +15,7 @@ public class Connection1 {
         String url1="oracle:jdbc:thin:@localhost:1521:xe";
         String user = "root";
         String pass = "Harshal@123";
-        String sql="select * from student";
+        String sql="select * from student ;";
 
         Connection con = DriverManager.getConnection(url, user, pass);
         System.out.println("Connection established successfully");

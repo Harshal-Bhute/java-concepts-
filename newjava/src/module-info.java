@@ -5,5 +5,7 @@
  * 
  */
 module newjava {
-	requires java.sql;
+	 requires java.sql;
+	 
 }
+
