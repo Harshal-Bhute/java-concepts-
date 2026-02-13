@@ -2,7 +2,7 @@ package DsaQuestions.Interview25;
 
 public class ReverseString {
 
-	//2nd apporach using char arr
+	//1st apporach using char arr
 	static String reverseArr(String s1) {
 		char[] arr = s1.toCharArray();
 		int i = 0,j=arr.length-1;
